@@ -1,0 +1,22 @@
+name: Controller request
+description: Ask for a full layout (lights, display, motorized faders) for your MIDI controller
+labels: [controller-request]
+body:
+  - type: input
+    id: model
+    attributes:
+      label: Brand and model
+      placeholder: e.g. Novation Launch Control XL 3
+    validations:
+      required: true
+  - type: textarea
+    id: use
+    attributes:
+      label: What would you like it to do on your Mac?
+      placeholder: e.g. faders for Spotify and Zoom volume, buttons to mute the mic
+  - type: checkboxes
+    id: test
+    attributes:
+      label: Testing
+      options:
+        - label: I own this controller and can test a beta layout (the first 2 testers of each beta model get a free license)
