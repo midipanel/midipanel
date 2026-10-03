@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: License, payment or refund
-    url: mailto:support@midipanel.com
-    about: Private questions go by e-mail, not in a public issue.
+    url: https://midipanel.com/contact?ref=github
+    about: "Private questions go to support@midipanel.com, not to a public issue."
   - name: FAQ and manual
     url: https://midipanel.com/faq?ref=github
     about: Permissions, setup and common problems.
